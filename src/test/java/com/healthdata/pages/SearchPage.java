@@ -48,6 +48,30 @@ public class SearchPage {
 	@FindBy(id="facetapi-link--201")
 	public WebElement page;
 	
+	@FindBy(id="facetapi-link")
+	public WebElement health;
+	
+	@FindBy(id="facetapi-link--2")
+	public WebElement state;
+	
+	@FindBy(id="facetapi-link--3")
+	public WebElement national;
+	
+	@FindBy(id="facetapi-link--4")
+	public WebElement medicare;
+	
+	@FindBy(id="facetapi-link--5")
+	public WebElement hospital;
+	
+	@FindBy(id="facetapi-link--6")
+	public WebElement quality;
+	
+	@FindBy(id="facetapi-link--7")
+	public WebElement community;
+	
+	@FindBy(id="facetapi-link--8")
+	public WebElement inpatient;
+	
 	
 	
 	
