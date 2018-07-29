@@ -1,5 +1,11 @@
 package com.healthdata.tests;
 
-public class searchTest {
+import org.testng.annotations.Test;
+
+public class searchTest extends TestBase {
 	
+	@Test(groups = { "smoke" })
+	public void test() {
+		
+	}
 }
