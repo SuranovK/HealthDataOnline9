@@ -94,7 +94,9 @@ public class SearchPage {
 	@FindBy(id="edit-sort-by")
 	public WebElement sortBy;
 	
-
+	@FindBy(id="anch_108")
+	public WebElement feedbackButton;
+	
 	
 	
 }
