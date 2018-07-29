@@ -27,6 +27,10 @@ public class SearchPage {
 	@FindBy(className="view-header")
 	public WebElement searchResults;
 	
+	@FindBy(xpath="//*[@id=\"main\"]/div/section/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/p")
+	public WebElement errorMessage;
+	
+	
 	@FindBy(xpath="(//div[@class='panel-panel-inner'])[1]/div[1]")
 	public WebElement contentTypes;
 	
