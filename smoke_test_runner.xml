@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke tests" verbose="2">
+	<test name="smoke">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.healthdata.tests.searchTest"></class>
+			<class name=""></class>
+
+		</classes>
+	</test>
+
+</suite>
