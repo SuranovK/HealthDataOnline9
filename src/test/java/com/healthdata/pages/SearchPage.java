@@ -88,7 +88,13 @@ public class SearchPage {
 	@FindBy(id="facetapi-link--8")
 	public WebElement inpatient;
 	
+	@FindBy(id="edit-sort-order")
+	public WebElement sortOrder;
 	
+	@FindBy(id="edit-sort-by")
+	public WebElement sortBy;
+	
+
 	
 	
 }

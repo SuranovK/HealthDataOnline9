@@ -2,57 +2,57 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke tests" duration-ms="11856" started-at="2018-07-29T17:08:49Z" finished-at="2018-07-29T17:09:01Z">
+  <suite name="Smoke tests" duration-ms="25028" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:52Z">
     <groups>
       <group name="smoke">
-        <method signature="InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@544fe44c]" name="InvalidSearchTermInSearchBox" class="com.healthdata.tests.InvalidSearch"/>
-        <method signature="searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="test" class="com.healthdata.tests.searchTest"/>
+        <method signature="InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="InvalidSearchTermInSearchBox" class="com.healthdata.tests.InvalidSearch"/>
+        <method signature="searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="test" class="com.healthdata.tests.searchTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="smoke" duration-ms="11856" started-at="2018-07-29T17:08:49Z" finished-at="2018-07-29T17:09:01Z">
+    <test name="smoke" duration-ms="25028" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:52Z">
       <class name="com.healthdata.tests.searchTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="setUpTest" is-config="true" duration-ms="234" started-at="2018-07-29T17:08:49Z" finished-at="2018-07-29T17:08:49Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="setUpTest" is-config="true" duration-ms="825" started-at="2018-07-29T17:17:26Z" finished-at="2018-07-29T17:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="setUp" is-config="true" duration-ms="5695" started-at="2018-07-29T17:08:49Z" finished-at="2018-07-29T17:08:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="setUp" is-config="true" duration-ms="13145" started-at="2018-07-29T17:17:27Z" finished-at="2018-07-29T17:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="test" duration-ms="6" started-at="2018-07-29T17:08:55Z" finished-at="2018-07-29T17:08:55Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="test" duration-ms="8" started-at="2018-07-29T17:17:41Z" finished-at="2018-07-29T17:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="tearDown" is-config="true" duration-ms="803" started-at="2018-07-29T17:08:55Z" finished-at="2018-07-29T17:08:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="tearDown" is-config="true" duration-ms="2006" started-at="2018-07-29T17:17:41Z" finished-at="2018-07-29T17:17:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@1e127982] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=searchTest.test()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.searchTest@1e127982]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-07-29T17:09:01Z" finished-at="2018-07-29T17:09:01Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.searchTest@42dafa95]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-07-29T17:17:52Z" finished-at="2018-07-29T17:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
       </class> <!-- com.healthdata.tests.searchTest -->
       <class name="com.healthdata.tests.InvalidSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.InvalidSearch@544fe44c]" name="setUp" is-config="true" duration-ms="3962" started-at="2018-07-29T17:08:56Z" finished-at="2018-07-29T17:09:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="setUp" is-config="true" duration-ms="7070" started-at="2018-07-29T17:17:43Z" finished-at="2018-07-29T17:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@544fe44c]" name="InvalidSearchTermInSearchBox" duration-ms="609" started-at="2018-07-29T17:09:00Z" finished-at="2018-07-29T17:09:00Z">
+        <test-method status="PASS" signature="InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="InvalidSearchTermInSearchBox" duration-ms="1505" started-at="2018-07-29T17:17:50Z" finished-at="2018-07-29T17:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSearchTermInSearchBox -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.InvalidSearch@544fe44c]" name="tearDown" is-config="true" duration-ms="756" started-at="2018-07-29T17:09:00Z" finished-at="2018-07-29T17:09:01Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f]" name="tearDown" is-config="true" duration-ms="1204" started-at="2018-07-29T17:17:51Z" finished-at="2018-07-29T17:17:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidSearchTermInSearchBox status=SUCCESS method=InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@544fe44c] output={null}]]]>
+                <![CDATA[[TestResult name=InvalidSearchTermInSearchBox status=SUCCESS method=InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:com.healthdata.tests.InvalidSearch@2f686d1f] output={null}]]]>
               </value>
             </param>
           </params>
