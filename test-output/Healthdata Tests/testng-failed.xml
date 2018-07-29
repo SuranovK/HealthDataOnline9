@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Healthdata Tests]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Smoke Tests(failed)" verbose="2">
+    <classes>
+      <class name="com.healthdata.tests.InvalidSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="InvalidSearchTermInSearchBox"/>
+          <include name="tearDownTest"/>
+          <include name="setUpTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.healthdata.tests.InvalidSearch -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Healthdata Tests] -->
