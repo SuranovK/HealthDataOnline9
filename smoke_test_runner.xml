@@ -6,13 +6,11 @@
 				<include name="smoke" />
 			</run>
 		</groups>
-
-
+		
 		<classes>
 			<class name="com.healthdata.tests.searchTest"></class>
 			<class name=""></class>
 
 		</classes>
 	</test>
-
 </suite>
