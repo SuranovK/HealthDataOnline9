@@ -45,7 +45,7 @@ public abstract class TestBase {
 		report.setSystemInfo("browser", ConfigurationReader.getProperty("browser"));
 		report.setSystemInfo("OS", System.getProperty("os.name"));
 
-		htmlReporter.config().setReportName("Web Orders Automated Test Reports");
+		htmlReporter.config().setReportName("Healthdata Automated Test Reports");
 	}
 
 	@BeforeMethod(alwaysRun = true)
