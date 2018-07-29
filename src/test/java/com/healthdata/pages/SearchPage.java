@@ -15,6 +15,18 @@ public class SearchPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(id="edit-query")
+	public WebElement searchInput;
+	
+	@FindBy(id="edit-submit-dkan-datasets")
+	public WebElement applyButton;
+	
+	@FindBy(id="edit-reset")
+	public WebElement resetButton;
+	
+	@FindBy(className="view-header")
+	public WebElement searchResults;
+	
 	@FindBy(xpath="(//div[@class='panel-panel-inner'])[1]/div[1]")
 	public WebElement contentTypes;
 	
