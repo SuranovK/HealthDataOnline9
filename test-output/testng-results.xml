@@ -1,43 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7431" started-at="2018-07-29T21:59:51Z" finished-at="2018-07-29T21:59:58Z">
+  <suite name="Healthdata Tests" duration-ms="28491" started-at="2018-07-30T20:13:51Z" finished-at="2018-07-30T20:14:20Z">
     <groups>
       <group name="smoke">
-        <method signature="verfiySort.sortTest()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="sortTest" class="com.healthdata.tests.verfiySort"/>
+        <method signature="FeedBackSubmition.feedBackTest()[pri:0, instance:gov.healthdata.tests.FeedBackSubmition@467b684d]" name="feedBackTest" class="gov.healthdata.tests.FeedBackSubmition"/>
+        <method signature="InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:gov.healthdata.tests.InvalidSearch@7baf1f5a]" name="InvalidSearchTermInSearchBox" class="gov.healthdata.tests.InvalidSearch"/>
+        <method signature="searchTest.test()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="test" class="gov.healthdata.tests.searchTest"/>
+        <method signature="verfiySort.sortTest()[pri:0, instance:gov.healthdata.tests.verfiySort@6e0c6a7a]" name="sortTest" class="gov.healthdata.tests.verfiySort"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="7431" started-at="2018-07-29T21:59:51Z" finished-at="2018-07-29T21:59:58Z">
-      <class name="com.healthdata.tests.verfiySort">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="setUpTest" is-config="true" duration-ms="268" started-at="2018-07-29T21:59:50Z" finished-at="2018-07-29T21:59:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="setUp" is-config="true" duration-ms="5786" started-at="2018-07-29T21:59:51Z" finished-at="2018-07-29T21:59:56Z">
+    <test name="Smoke Tests" duration-ms="28491" started-at="2018-07-30T20:13:51Z" finished-at="2018-07-30T20:14:20Z">
+      <class name="gov.healthdata.tests.verfiySort">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.healthdata.tests.verfiySort@6e0c6a7a]" name="setUp" is-config="true" duration-ms="3540" started-at="2018-07-30T20:14:03Z" finished-at="2018-07-30T20:14:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sortTest()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="sortTest" duration-ms="876" started-at="2018-07-29T21:59:56Z" finished-at="2018-07-29T21:59:57Z">
+        <test-method status="PASS" signature="sortTest()[pri:0, instance:gov.healthdata.tests.verfiySort@6e0c6a7a]" name="sortTest" duration-ms="832" started-at="2018-07-30T20:14:07Z" finished-at="2018-07-30T20:14:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="747" started-at="2018-07-29T21:59:57Z" finished-at="2018-07-29T21:59:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:gov.healthdata.tests.verfiySort@6e0c6a7a]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-07-30T20:14:08Z" finished-at="2018-07-30T20:14:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortTest status=SUCCESS method=verfiySort.sortTest()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b] output={null}]]]>
+                <![CDATA[[TestResult name=sortTest status=SUCCESS method=verfiySort.sortTest()[pri:0, instance:gov.healthdata.tests.verfiySort@6e0c6a7a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.healthdata.tests.verfiySort@3c0ecd4b]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2018-07-29T21:59:58Z" finished-at="2018-07-29T21:59:58Z">
+      </class> <!-- gov.healthdata.tests.verfiySort -->
+      <class name="gov.healthdata.tests.searchTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="setUpTest" is-config="true" duration-ms="380" started-at="2018-07-30T20:13:51Z" finished-at="2018-07-30T20:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="setUp" is-config="true" duration-ms="6128" started-at="2018-07-30T20:13:51Z" finished-at="2018-07-30T20:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="test" duration-ms="1565" started-at="2018-07-30T20:13:57Z" finished-at="2018-07-30T20:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="tearDown" is-config="true" duration-ms="101" started-at="2018-07-30T20:13:59Z" finished-at="2018-07-30T20:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=searchTest.test()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:gov.healthdata.tests.searchTest@524a076e]" name="tearDownTest" is-config="true" duration-ms="3" started-at="2018-07-30T20:14:20Z" finished-at="2018-07-30T20:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.healthdata.tests.verfiySort -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- gov.healthdata.tests.searchTest -->
+      <class name="gov.healthdata.tests.InvalidSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.healthdata.tests.InvalidSearch@7baf1f5a]" name="setUp" is-config="true" duration-ms="3830" started-at="2018-07-30T20:13:59Z" finished-at="2018-07-30T20:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidSearchTermInSearchBox()[pri:0, instance:gov.healthdata.tests.InvalidSearch@7baf1f5a]" name="InvalidSearchTermInSearchBox" duration-ms="632" started-at="2018-07-30T20:14:03Z" finished-at="2018-07-30T20:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSearchTermInSearchBox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:gov.healthdata.tests.InvalidSearch@7baf1f5a]" name="tearDown" is-config="true" duration-ms="92" started-at="2018-07-30T20:14:03Z" finished-at="2018-07-30T20:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidSearchTermInSearchBox status=SUCCESS method=InvalidSearch.InvalidSearchTermInSearchBox()[pri:0, instance:gov.healthdata.tests.InvalidSearch@7baf1f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gov.healthdata.tests.InvalidSearch -->
+      <class name="gov.healthdata.tests.FeedBackSubmition">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gov.healthdata.tests.FeedBackSubmition@467b684d]" name="setUp" is-config="true" duration-ms="3550" started-at="2018-07-30T20:14:08Z" finished-at="2018-07-30T20:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feedBackTest()[pri:0, instance:gov.healthdata.tests.FeedBackSubmition@467b684d]" name="feedBackTest" duration-ms="7985" started-at="2018-07-30T20:14:12Z" finished-at="2018-07-30T20:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBackTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:gov.healthdata.tests.FeedBackSubmition@467b684d]" name="tearDown" is-config="true" duration-ms="94" started-at="2018-07-30T20:14:19Z" finished-at="2018-07-30T20:14:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feedBackTest status=SUCCESS method=FeedBackSubmition.feedBackTest()[pri:0, instance:gov.healthdata.tests.FeedBackSubmition@467b684d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gov.healthdata.tests.FeedBackSubmition -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- Healthdata Tests -->
 </testng-results>

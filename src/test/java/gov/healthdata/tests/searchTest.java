@@ -18,17 +18,7 @@ public class searchTest extends TestBase {
 		assertTrue(searchPage.searchResultLbl.isDisplayed());
 		System.out.println(searchPage.searchResultLbl.getText());
 		
-		searchPage.addFeedbackBtn.click();
-		searchPage.addTitle.sendKeys(ConfigurationReader.getProperty("feedbackTitle"));//18691
-		searchPage.addFeedBackText.sendKeys(ConfigurationReader.getProperty("feedbackText"));
-		searchPage.addTags.sendKeys(ConfigurationReader.getProperty("tag") + Keys.ENTER);
 		
-		searchPage.feedBackTypeOpt.click();
-		searchPage.selectOtherOpt.click();
-		searchPage.captchaInput.sendKeys("5");
-		searchPage.saveBtn.click();
-		
-		assertTrue(searchPage.errorMsg.isDisplayed());
 		
 		
 	}

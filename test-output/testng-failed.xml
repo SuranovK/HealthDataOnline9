@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Healthdata Tests]">
+  <test thread-count="5" verbose="2" name="Smoke Tests(failed)">
     <classes>
-      <class name="com.healthdata.tests.verfiySort">
+      <class name="gov.healthdata.tests.FeedBackSubmition">
         <methods>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="sortTest"/>
+          <include name="feedBackTest"/>
           <include name="tearDownTest"/>
           <include name="setUpTest"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.healthdata.tests.verfiySort -->
+      </class> <!-- gov.healthdata.tests.FeedBackSubmition -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Healthdata Tests] -->
