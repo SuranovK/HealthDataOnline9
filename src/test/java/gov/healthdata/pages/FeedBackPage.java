@@ -1,11 +1,11 @@
-package com.healthdata.pages;
+package gov.healthdata.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.healthdata.utilities.Driver;
+import gov.healthdata.utilities.Driver;
 
 public class FeedBackPage {
 	private WebDriver driver;

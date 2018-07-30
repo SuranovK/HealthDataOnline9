@@ -1,4 +1,4 @@
-package com.healthdata.utilities;
+package gov.healthdata.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

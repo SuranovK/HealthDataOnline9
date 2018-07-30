@@ -1,11 +1,11 @@
-package com.healthdata.pages;
+package gov.healthdata.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.healthdata.utilities.Driver;
+import gov.healthdata.utilities.Driver;
 
 public class SearchPage {
 	private WebDriver driver;
@@ -94,8 +94,53 @@ public class SearchPage {
 	@FindBy(id="edit-sort-by")
 	public WebElement sortBy;
 	
+	@FindBy(id="edit-search")
+	public WebElement searchBox;
+	
+	@FindBy(id="edit-submit")
+	public WebElement searchBtn;
+	
+	@FindBy(xpath="//div[@class='view-header']")
+	public WebElement searchResultLbl;
+	
 	@FindBy(id="anch_108")
-	public WebElement feedbackButton;
+	public WebElement addFeedbackBtn;
+	
+	@FindBy(id="main-content")
+	public WebElement AddFeedBackPageLbl;
+	
+	@FindBy(id="edit-title")
+	public WebElement addTitle;
+	
+	@FindBy(id="edit-field-contact-email-und-0-value")
+	public WebElement addEmail;
+	
+	@FindBy(id="edit-body-und-0-value")
+	public WebElement addFeedBackText;
+	
+	@FindBy(id="autocomplete-deluxe-input")
+	public WebElement addTags;
+	
+	@FindBy(id="edit-field-feedback-entity-reference-und")
+	public WebElement addDataSet;
+	
+	@FindBy(id="edit-field-feedback-type-und")
+	public WebElement feedBackTypeOpt;
+	
+	@FindBy(id="edit-captcha-response")
+	public WebElement captchaInput;
+	
+	@FindBy(id="edit-submit")
+	public WebElement saveBtn;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissable']")
+	public WebElement errorMsg;
+	
+	@FindBy(xpath="//option[@value='18691']")
+	public WebElement selectOtherOpt;
+	
+	@FindBy(xpath="//span[@class='field-prefix']")
+	public WebElement captchaValue;
 	
 	
 	

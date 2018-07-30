@@ -1,4 +1,4 @@
-package com.healthdata.tests;
+package gov.healthdata.tests;
 
 import static org.testng.Assert.assertEquals;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import com.healthdata.pages.SearchPage;
+import gov.healthdata.pages.SearchPage;
 
 public class verfiySort extends TestBase{
 	

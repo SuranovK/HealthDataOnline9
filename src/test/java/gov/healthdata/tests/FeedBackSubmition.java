@@ -1,4 +1,4 @@
-package com.healthdata.tests;
+package gov.healthdata.tests;
 
 import org.testng.annotations.Test;
 
