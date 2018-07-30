@@ -35,5 +35,14 @@
 	<classpathentry kind="lib" path="/Users/asanbaisuranov/Documents/selenium dependencies/libraries/selenium-java-3.13.0/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="/Users/asanbaisuranov/Documents/selenium dependencies/libraries/selenium-java-3.13.0/libs/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="/Users/asanbaisuranov/Documents/selenium dependencies/libraries/selenium-java-3.13.0/client-combined-3.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/asanbaisuranov/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar" sourcepath="/Users/asanbaisuranov/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-remote-driver"/>
+			<attribute name="maven.version" value="3.11.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

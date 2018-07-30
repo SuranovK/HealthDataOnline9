@@ -57,7 +57,7 @@ public abstract class TestBase {
 //		driver.manage().window().fullscreen();
 		driver.get(ConfigurationReader.getProperty("url"));
 
-	}
+	} 
 
 
 	@AfterMethod(alwaysRun = true)
